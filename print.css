@@ -1,0 +1,13 @@
+@media print {
+  .site-header {
+    position: static !important;
+    border-bottom: 2px solid #e8e5e5;
+  }
+  .site-header a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  .sydney-hero-area,
+  .site-header .mainnav {
+    display: none !important;
+  }
+}
